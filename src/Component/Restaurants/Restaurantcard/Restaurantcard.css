@@ -1,0 +1,65 @@
+.restaurant_card {
+  background: linear-gradient(rgb(154, 154, 154), black);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 350px;
+  height: 250px;
+  box-shadow: 10px 4px 10px rgba(90, 90, 90, 0.6);
+  color: white;
+}
+.restaurant_food>p{
+  cursor: pointer;
+}
+.restaurant_details {
+  margin-bottom: 10px;
+  height: 120px;
+}
+.restaurant_food {
+  height: 80px;
+}
+.restaurant_food_menu{
+  text-decoration: none;
+  color:rgb(61, 111, 251);
+}
+.restaurant_name_rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.restaurant_star i {
+  font-size: 12px;
+}
+
+.restaurant_star i + i {
+  margin-left: 5px;
+}
+
+.restaurant_food {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.restaurant_food p {
+  margin-right: 10px;
+}
+
+/* card icon*/
+.fa-location-dot {
+  margin-right: 10px;
+  color: rgb(194, 141, 244);
+}
+
+.fa-utensils {
+  color: rgb(255, 199, 115);
+  margin-right: 10px;
+}
+
+/* visit menu */
+.restaurant_food > p:last-child {
+  color: rgb(102, 102, 243);
+}

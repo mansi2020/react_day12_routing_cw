@@ -1,0 +1,43 @@
+.card_container{
+    box-shadow: 2px 2px 10px grey;
+    padding:2rem;
+    border-radius: 1rem;
+}
+
+.card_container>h1{
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.card_container>span{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+  
+/* ---------- */
+.card_container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(3, 3, 3, 0.5);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    margin: 10px;
+    max-width: 100%;
+    color:white;
+  }
+  
+  .card_container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card_container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card_container span {
+    font-size: 14px;
+  }
+  

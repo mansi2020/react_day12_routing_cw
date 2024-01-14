@@ -1,0 +1,41 @@
+.reviewContainer{
+    display:grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    column-gap:2rem;
+    row-gap: 1.5rem;
+}
+
+.reviewProfile img{
+    width:3rem;
+    height:3rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviewMain{
+    padding:3rem 1.5rem;
+    
+}
+
+.reviewCard>p{
+    background-color: #f9fafb;
+    box-shadow: 2px 3px 5px rgb(227, 226, 226);
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    height:fit-content;
+}
+
+.reviewProfile{
+    display:flex;
+    gap:1.5rem;
+    margin-top: 1.2rem;
+}
+
+.reviewProfileContent>p:first-child{
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.reviewProfileContent>p:last-child{
+    font-size: 0.85rem;
+}

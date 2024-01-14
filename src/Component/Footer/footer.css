@@ -1,0 +1,46 @@
+.footer_container{
+    background-color: rgb(243,244,246);
+    padding-top:3rem;
+    padding-bottom:4rem;
+}
+
+/* footer upper part */
+#footerUpper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer_logo img{
+    width:170px;
+}
+
+.footer_content>p{
+    color:rgb(109, 109, 109);
+    text-align: center;
+    word-spacing: 0.1rem;
+    line-height: 1.4rem;
+}
+
+/* footer lower part */
+#footerLower{
+    margin-top:3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:3rem;
+}
+#footerLower ul{
+    display: flex;
+    list-style: none;
+    gap:2.3rem;
+    color:rgb(59, 59, 59);
+}
+
+#footer_icon{
+    display: flex;
+    gap:2rem;
+}
+#footer_icon i{
+    font-size: 1.3rem;
+    color:rgb(68, 68, 68);
+}

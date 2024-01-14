@@ -1,0 +1,6 @@
+.body_Container{
+    display:flex;
+    flex-direction: column;
+    gap:3.5rem;
+    padding:2rem 6rem;
+}
