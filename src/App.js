@@ -2,12 +2,12 @@ import logo from "./logo.svg";
 import "./App.css";
 import Main from "./Component/Main/Main";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from './Component/Home/Home';
-import Quote from './Component/Quote/Quote';
+import Home from "./Component/Home/Home";
+import Quote from "./Component/Quote/Quote";
 import Restaurants from "./Component/Restaurants/Restaurants";
-import Foods from './Component/Foods/Foods';
+import Foods from "./Component/Foods/Foods";
 import Contact from "./Component/Contact/Contact";
-import RestaurantMenu from "./Component/Restaurants/RestaurantsMenu/RestaurantMenu";
+import Foodsrecipe from "./Component/Foods/Foodsrecipe";
 
 function App() {
   // create browser router
@@ -18,32 +18,30 @@ function App() {
       children: [
         {
           path: "/home",
-          element : <Home></Home>
+          element: <Home></Home>,
         },
         {
           path: "/quote",
-          element : <Quote></Quote>
+          element: <Quote></Quote>,
         },
         {
           path: "/resturants",
-          element : <Restaurants></Restaurants>
+          element: <Restaurants></Restaurants>,
         },
-        ,
-        {
-          path: "/resturants/:id",
-          element : <RestaurantMenu></RestaurantMenu>
-        },
-        {
-          path: "/foods",
-          element : <Foods></Foods>
-        }
-        
-      ]},
-      {
-        path: "/Contact",
-        element : <Contact></Contact>
-      },
-  
+      ],
+    },
+    {
+      path: "/foods",
+      element: <Foods></Foods>,
+    },
+    {
+      path: "/foods/:id",
+      element: <Foodsrecipe></Foodsrecipe>,
+    },
+    {
+      path: "/Contact",
+      element: <Contact></Contact>,
+    },
   ]);
 
   return (

@@ -57,7 +57,7 @@ const Restaurantcard = (props) => {
         <p>
           <i class="fa-solid fa-utensils"></i> {props.type_of_food}
         </p>
-        <Link to={`/resturants/${props.name}`} className="restaurant_food_menu"><p>Visit Menu</p></Link>
+        <p>Visit Menu</p>
       </div>
     </div>
   );

@@ -1,12 +1,12 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from "react";
 import "./reviews.css";
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Reviews = () => {
-    useEffect(()=>{
-      Aos.init({duration:500});
-    },[]);
+  useEffect(() => {
+    Aos.init({ duration: 500 });
+  }, []);
   return (
     <div className="reviewMain">
       <div className="reviewContainer">
@@ -96,7 +96,8 @@ const Reviews = () => {
         {/* card 5 */}
         <div className="reviewCard" data-aos="flip-right">
           <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus eius aut unde, dolores accusantium!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
+            doloribus eius aut unde, dolores accusantium!
           </p>
           <div className="reviewProfile">
             <img
@@ -113,7 +114,8 @@ const Reviews = () => {
         {/* card 6 */}
         <div className="reviewCard" data-aos="flip-right">
           <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius ut necessitatibus, repudiandae qui dolor minima.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius ut
+            necessitatibus, repudiandae qui dolor minima.
           </p>
           <div className="reviewProfile">
             <img

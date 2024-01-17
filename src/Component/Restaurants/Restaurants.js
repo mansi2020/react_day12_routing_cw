@@ -1,12 +1,12 @@
-import React from 'react'
-import Main from './Main/Main'
+import React from "react";
+import Main from "./Main/Main";
 
 const Restaurants = () => {
   return (
     <div>
-      <Main/>
+      <Main />
     </div>
-  )
-}
+  );
+};
 
-export default Restaurants
+export default Restaurants;

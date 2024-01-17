@@ -5,7 +5,6 @@ import "./Main.css";
 import { Link } from "react-router-dom";
 
 const Main = () => {
-  
   // usestate varibale for restaurant list
   let [changeData, setChnageData] = useState(RestaurantList);
   let [ratingVal, setRatingVal] = useState(0);
@@ -77,11 +76,10 @@ const Main = () => {
             /* short form of  restaurantDetails prop*/
           }
           return (
-              <Restaurantcard
-                key={restaurantDetails.id.id}
-                {...restaurantDetails}
-              />
-            
+            <Restaurantcard
+              key={restaurantDetails.id.id}
+              {...restaurantDetails}
+            />
           );
         })}
       </div>

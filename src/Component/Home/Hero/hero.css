@@ -1,54 +1,53 @@
-
-#herosection_sub{
-    background-image: url("https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
-    /* margin-top: 70px; */
-    height:calc(100vh - 70px);
-    display:flex;
-    flex-direction: column;
-    padding:2.5rem;
-    justify-content: center;
-    background-position: center;
-    background-size: cover;
+#herosection_sub {
+  background-image: url("https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+  /* margin-top: 70px; */
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
 }
-#herosection_sub>div{
-    width:40vw;
-    text-align: center;
+#herosection_sub > div {
+  width: 40vw;
+  text-align: center;
 }
-#herosection_sub>div>h1{
-    font-size:3rem;
-    line-height: 1;
-    font-weight: 800;
+#herosection_sub > div > h1 {
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 800;
 }
-#herosection_head{
-    color:rgb(225 29 72);
+#herosection_head {
+  color: rgb(225 29 72);
 }
-#herosection_sub>div>p{
-    font-size: 1.25rem;
-    line-height: 1.625;
-    margin-top: 1rem
+#herosection_sub > div > p {
+  font-size: 1.25rem;
+  line-height: 1.625;
+  margin-top: 1rem;
 }
-.herosectionButtons{
-    margin-top: 2rem;
-    display:flex;
-    gap:1rem;
+.herosectionButtons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
 }
-#heroButton1,#heroButton2{
-    font-size: .875rem;
-    line-height: 1.25rem;
-    font-weight: 500;
-    padding:0.75rem 3rem;
-    border-radius: 0.25rem;
-    border:none;
+#heroButton1,
+#heroButton2 {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  padding: 0.75rem 3rem;
+  border-radius: 0.25rem;
+  border: none;
 }
-#heroButton1{
-    background-color: rgb(225 29 72);
-    color:white;
+#heroButton1 {
+  background-color: rgb(225 29 72);
+  color: white;
 }
-#heroButton1:hover{
-    background-color: rgb(218, 5, 51);
+#heroButton1:hover {
+  background-color: rgb(218, 5, 51);
 }
-#heroButton2{
-    background-color:white;
-    color:rgb(225 29 72);
+#heroButton2 {
+  background-color: white;
+  color: rgb(225 29 72);
 }
-

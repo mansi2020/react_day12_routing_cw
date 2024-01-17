@@ -1,21 +1,22 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from "react";
 // import HeroSectionImage from "./../Assest/HeroSectionImage.avif";
 import Button from "../../Button/Button";
 import "./hero.css";
-import Aos from 'aos';
-import 'aos/dist/aos.css';
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Hero = () => {
-  useEffect(()=>{
-    Aos.init({duration:1000});
-  },[]);
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div className="heroSection">
       <div id="herosection_sub">
-        <div data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <h1>Let us find your </h1>
           <h1 id="herosection_head">Forever Food.</h1>
           <p>

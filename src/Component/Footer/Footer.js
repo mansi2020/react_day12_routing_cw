@@ -1,11 +1,10 @@
 import React from "react";
 import footerLogo from "./../Assest/footer_logo.png";
-import './footer.css'
+import "./footer.css";
 
 const Footer = () => {
   return (
     <div className="footer_container">
-
       {/* footer upper part */}
       <div id="footerUpper">
         <div className="footer_logo">
